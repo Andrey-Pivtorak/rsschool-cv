@@ -74,4 +74,3 @@ function automorphic(n){
 * English - pre-intermediate
 * Ukrainian - native
 * Russian - upper-intermediate
-
