@@ -252,11 +252,11 @@
 									<div>
 										<code>
 											function automorphic(n){<br>
-											 &nbsp&nbspconst lengthOfNumber = n.toString().length;<br>
-											 &nbsp&nbspconst squareArray = (n * n).toString().split('');<br>
-											 &nbsp&nbspconst result = squareArray.slice( squareArray.length - lengthOfNumber).join('');<br><br>
+											 &nbsp;&nbsp;const lengthOfNumber = n.toString().length;<br>
+											 &nbsp;&nbsp;const squareArray = (n * n).toString().split('');<br>
+											 &nbsp;&nbsp;const result = squareArray.slice( squareArray.length - lengthOfNumber).join('');<br><br>
 
-											 &nbsp&nbspreturn n === +result ? 'Automorphic' : 'Not!!';<br>
+											 &nbsp;&nbsp;return n === +result ? 'Automorphic' : 'Not!!';<br>
 											}
 										</code>
 									</div>
